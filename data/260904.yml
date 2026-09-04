@@ -7,7 +7,7 @@ about:
   head: 6efc783
   archived: false
   latestVersion: v1.1
-  collectedAt: 2026-09-04T19:27:55Z
+  collectedAt: 2026-09-04T21:02:57Z
 timeline:
   created: 2016-11-07
   lastCommit: 2026-09-02
@@ -83,6 +83,74 @@ total:
   openIssue: 52
   commit: 795
 ---
+path: /home/runner/.x-repo/github.com/google/bloaty
+collectedAt: 2026-09-04T21:02:58Z
+loc:
+  Cpp:
+    code: 7609
+    comments: 833
+    blanks: 1228
+    files: 22
+  CHeader:
+    code: 5043
+    comments: 2628
+    blanks: 944
+    files: 24
+  CMake:
+    code: 503
+    comments: 22
+    blanks: 56
+    files: 1
+  Python:
+    code: 439
+    comments: 24
+    blanks: 85
+    files: 3
+  Sh:
+    code: 109
+    comments: 22
+    blanks: 29
+    files: 2
+  Batch:
+    code: 43
+    comments: 0
+    blanks: 18
+    files: 2
+  Protobuf:
+    code: 39
+    comments: 49
+    blanks: 22
+    files: 1
+  ForgeConfig:
+    code: 34
+    comments: 3
+    blanks: 16
+    files: 1
+  C:
+    code: 28
+    comments: 6
+    blanks: 9
+    files: 6
+  Autoconf:
+    code: 8
+    comments: 1
+    blanks: 4
+    files: 1
+  Markdown:
+    code: 0
+    comments: 1478
+    blanks: 260
+    files: 8
+  Text:
+    code: 0
+    comments: 136
+    blanks: 0
+    files: 16
+total:
+  code: 13872
+  comments: 5207
+  blanks: 2673
+  files: 87
 ---
 date: "2026-08-24"
 repo:
