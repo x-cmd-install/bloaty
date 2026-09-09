@@ -2,91 +2,91 @@ about:
   description: "Bloaty: a size profiler for binaries"
   license: Apache-2.0
   homepage: 
-  head: f12fc3d
+  head: 90476ad
   archived: false
   latestVersion: "v1.1"
   latestRelease: "v1.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T06:24:50Z
+  collectedAt: 2026-09-09T20:37:29Z
 timeline:
   created: 2016-11-07
-  lastCommit: 2026-09-08
+  lastCommit: 2026-09-09
   lastVersion: 2020-05-24
   lastRelease: 2020-05-24
   lastPrerelease: 
 popularity:
-  star: 5539
+  star: 5541
   watcher: 74
   fork: 378
   release: 2
   contributor: 62
-  pullRequest: 299
-  issue: 210
+  pullRequest: 301
+  issue: 211
 language:
-  C++: 408061
+  C++: 408130
   CMake: 22358
   Python: 2682
   Shell: 1174
-totalBytes: 434275
+totalBytes: 434344
 recent:
   last30d:
     since: 2026-08-10
     release: 0
-    mergedPR: 4
+    mergedPR: 5
     openPR: 2
     closedIssue: 0
-    openIssue: 0
-    commit: 4
+    openIssue: 1
+    commit: 5
   last60d:
     since: 2026-07-11
     release: 0
-    mergedPR: 4
+    mergedPR: 5
     openPR: 6
     closedIssue: 0
-    openIssue: 0
-    commit: 4
+    openIssue: 1
+    commit: 5
   last90d:
     since: 2026-06-11
     release: 0
-    mergedPR: 4
+    mergedPR: 5
     openPR: 6
     closedIssue: 0
-    openIssue: 0
-    commit: 4
+    openIssue: 1
+    commit: 5
   last180d:
     since: 2026-03-13
     release: 0
-    mergedPR: 5
+    mergedPR: 6
     openPR: 11
     closedIssue: 0
-    openIssue: 4
-    commit: 5
+    openIssue: 5
+    commit: 6
   last360d:
     since: 2025-09-14
     release: 0
-    mergedPR: 53
+    mergedPR: 54
     openPR: 15
     closedIssue: 20
-    openIssue: 12
-    commit: 68
+    openIssue: 13
+    commit: 69
   last720d:
     since: 2024-09-19
     release: 0
-    mergedPR: 57
+    mergedPR: 58
     openPR: 16
     closedIssue: 31
-    openIssue: 14
-    commit: 92
+    openIssue: 15
+    commit: 93
 total:
   release: 2
-  mergedPR: 248
+  mergedPR: 249
   openPR: 20
-  closedIssue: 158
+  closedIssue: 159
   openIssue: 52
-  commit: 796
+  commit: 797
 ---
 path: /home/runner/.x-repo/github.com/google/bloaty
-collectedAt: 2026-09-09T06:24:52Z
+collectedAt: 2026-09-09T20:37:32Z
 loc:
   Cpp:
     code: 7616
