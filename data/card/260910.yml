@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.1"
   latestRelease: "v1.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:21:08Z
+  collectedAt: 2026-09-10T23:27:45Z
 timeline:
   created: 2016-11-07
   lastCommit: 2026-09-10
@@ -86,7 +86,7 @@ total:
   commit: 798
 ---
 path: /home/runner/.x-repo/github.com/google/bloaty
-collectedAt: 2026-09-10T20:21:09Z
+collectedAt: 2026-09-10T23:27:48Z
 loc:
   Cpp:
     code: 7615
