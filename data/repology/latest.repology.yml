@@ -1,12 +1,12 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: bloaty
-  binname: bloaty
-  visiblename: bloaty
+  binname: bloaty-dev
+  visiblename: bloaty-dev
   version: "1.1"
   origversion: 1.1-r10
   status: newest
-  summary: 'Bloaty McBloatface: a size profiler for binaries'
+  summary: 'Bloaty McBloatface: a size profiler for binaries (development files)'
   maintainers:
     - oss@cogitri.dev
   licenses:
@@ -14,12 +14,12 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: bloaty
-  binname: bloaty-dev
-  visiblename: bloaty-dev
+  binname: bloaty
+  visiblename: bloaty
   version: "1.1"
   origversion: 1.1-r10
   status: newest
-  summary: 'Bloaty McBloatface: a size profiler for binaries (development files)'
+  summary: 'Bloaty McBloatface: a size profiler for binaries'
   maintainers:
     - oss@cogitri.dev
   licenses:
@@ -277,18 +277,6 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-4-Clause-UC AND BSD-3-Clause
   categories:
     - Unspecified
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: bloaty
-  visiblename: bloaty
-  version: "1.1"
-  origversion: 1.1-bp155.2.15
-  status: newest
-  summary: 'Bloaty McBloatface: a size profiler for binaries'
-  licenses:
-    - Apache-2.0
-  categories:
-    - Development/Tools/Other
 - repo: fedora_43
   subrepo: release
   srcname: bloaty
@@ -435,17 +423,6 @@
     - Apache-2.0
   categories:
     - dev-util
-- repo: parabola
-  subrepo: extra
-  srcname: bloaty
-  binname: bloaty
-  visiblename: bloaty
-  version: "1.1"
-  origversion: 1.1-29
-  status: newest
-  summary: Size profiler for binaries
-  licenses:
-    - Apache-2.0
 - repo: liguros_develop
   srcname: dev-util/bloaty
   visiblename: dev-util/bloaty
@@ -547,7 +524,7 @@
   binname: bloaty
   visiblename: bloaty
   version: "1.1"
-  origversion: 1.1-28
+  origversion: 1.1-29
   status: newest
   summary: Size profiler for binaries
   licenses:
@@ -627,6 +604,29 @@
   summary: Size profiler for binaries
   maintainers:
     - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: bloaty
+  visiblename: bloaty
+  version: "1.1"
+  origversion: 1.1-bp155.2.15
+  status: newest
+  summary: 'Bloaty McBloatface: a size profiler for binaries'
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Other
+- repo: parabola
+  subrepo: extra
+  srcname: bloaty
+  binname: bloaty
+  visiblename: bloaty
+  version: "1.1"
+  origversion: 1.1-29
+  status: newest
+  summary: Size profiler for binaries
   licenses:
     - Apache-2.0
 - repo: spack
