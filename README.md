@@ -4,7 +4,7 @@
 
 Bloaty: a size profiler for binaries
 
-![bloaty](https://repo.x-cmd.io/bloaty.svg)
+[![x-cmd/install — bloaty Code Quality Monitoring Repo Card](https://repo.x-cmd.io/bloaty.svg)](https://x-cmd.com/install/bloaty)
 
 ## Install
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,545 · **Forks**: 378 · **Open issues**: 211 · **Contributors**: 62
+- **Stars**: 5,547 · **Forks**: 379 · **Open issues**: 211 · **Contributors**: 62
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 250 · **Open PRs**: 20 · **Closed issues**: 159 · **Open issues**: 52 · **Commits**: 798
+- **Releases**: 2 · **Merged PRs**: 250 · **Open PRs**: 21 · **Closed issues**: 159 · **Open issues**: 52 · **Commits**: 798
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 6 | 2 | 0 | 1 | 6 |
-| last60d | 2026-07-20 | 0 | 6 | 5 | 0 | 1 | 6 |
-| 90d | 2026-06-20 | 0 | 6 | 6 | 0 | 1 | 6 |
-| last180d | 2026-03-22 | 0 | 7 | 10 | 0 | 4 | 7 |
-| 360d | 2025-09-23 | 0 | 55 | 15 | 20 | 13 | 70 |
-| last720d | 2024-09-28 | 0 | 59 | 16 | 31 | 15 | 93 |
+| 30d | 2026-08-21 | 0 | 6 | 3 | 0 | 1 | 6 |
+| last60d | 2026-07-22 | 0 | 6 | 6 | 0 | 1 | 6 |
+| 90d | 2026-06-22 | 0 | 6 | 7 | 0 | 1 | 6 |
+| last180d | 2026-03-24 | 0 | 7 | 11 | 0 | 4 | 7 |
+| 360d | 2025-09-25 | 0 | 55 | 16 | 19 | 13 | 70 |
+| last720d | 2024-09-30 | 0 | 59 | 17 | 31 | 15 | 93 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for bloaty lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:36:31Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:26:44Z._
