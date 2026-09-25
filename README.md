@@ -14,12 +14,12 @@ x install bloaty
 
 ## Code insight
 
-Total: **13,863** lines of code across **52** files in the top 5 languages.
+Total: **13,842** lines of code across **52** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 7,615 | 834 | 1,229 | 22 |
-| CHeader | 5,045 | 2,628 | 944 | 24 |
+| Cpp | 7,599 | 838 | 1,222 | 22 |
+| CHeader | 5,042 | 2,630 | 938 | 24 |
 | CMake | 503 | 22 | 56 | 1 |
 | Python | 439 | 24 | 85 | 3 |
 | Sh | 109 | 22 | 29 | 2 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.1` (2020-05-24)
-- **Last commit**: 2026-09-23
+- **Last commit**: 2026-09-24
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 5,549 · **Forks**: 378 · **Open issues**: 211 · **Contributors**: 62
+- **Stars**: 5,550 · **Forks**: 378 · **Open issues**: 211 · **Contributors**: 62
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 251 · **Open PRs**: 21 · **Closed issues**: 159 · **Open issues**: 52 · **Commits**: 801
+- **Releases**: 2 · **Merged PRs**: 252 · **Open PRs**: 20 · **Closed issues**: 159 · **Open issues**: 52 · **Commits**: 802
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 0 | 7 | 3 | 0 | 1 | 7 |
-| last60d | 2026-07-26 | 0 | 7 | 5 | 0 | 1 | 8 |
-| 90d | 2026-06-26 | 0 | 7 | 7 | 0 | 1 | 8 |
-| last180d | 2026-03-28 | 0 | 8 | 11 | 0 | 4 | 9 |
-| 360d | 2025-09-29 | 0 | 56 | 16 | 19 | 13 | 72 |
-| last720d | 2024-10-04 | 0 | 60 | 17 | 31 | 14 | 91 |
+| 30d | 2026-08-26 | 0 | 8 | 2 | 0 | 1 | 8 |
+| last60d | 2026-07-27 | 0 | 8 | 4 | 0 | 1 | 9 |
+| 90d | 2026-06-27 | 0 | 8 | 6 | 0 | 1 | 9 |
+| last180d | 2026-03-29 | 0 | 9 | 10 | 0 | 4 | 10 |
+| 360d | 2025-09-30 | 0 | 57 | 15 | 19 | 13 | 73 |
+| last720d | 2024-10-05 | 0 | 61 | 16 | 31 | 14 | 92 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for bloaty lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T06:06:18Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T06:16:36Z._
