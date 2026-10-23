@@ -57,18 +57,31 @@ x install bloaty
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 2 | 2 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 8 | 4 | 0 | 1 | 9 |
-| 90d | 2026-07-24 | 0 | 8 | 6 | 0 | 1 | 9 |
-| last180d | 2026-04-25 | 0 | 8 | 11 | 0 | 4 | 9 |
-| 360d | 2025-10-27 | 0 | 54 | 17 | 16 | 11 | 58 |
-| last720d | 2024-11-01 | 0 | 61 | 18 | 31 | 14 | 92 |
+| 30d | 2026-09-23 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 8 | 4 | 0 | 1 | 9 |
+| 90d | 2026-07-25 | 0 | 8 | 6 | 0 | 1 | 9 |
+| last180d | 2026-04-26 | 0 | 8 | 11 | 0 | 4 | 9 |
+| 360d | 2025-10-28 | 0 | 50 | 17 | 16 | 11 | 58 |
+| last720d | 2024-11-02 | 0 | 61 | 18 | 31 | 14 | 92 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
 | [bloaty-1.1.tar.bz2](https://github.com/google/bloaty/releases/download/v1.1/bloaty-1.1.tar.bz2) | 5.1 MiB | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/bloaty) 上共有 **53** 个发行版报告此项目。**42** 个 ✅ 已是最新上游版本，**0** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `1.1` | ✅ latest |
+| Homebrew | `1.1` | ✅ latest |
+| Fedora rawhide | `1.1` | ✅ latest |
+| Nix unstable | `1.1-unstable-2026-05-31` | ignored |
+| Void | `1.1` | ✅ latest |
+| Alpine edge | `1.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -79,4 +92,4 @@ bloaty 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T06:07:31Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T06:09:51Z._

@@ -57,18 +57,31 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 2 | 2 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 8 | 4 | 0 | 1 | 9 |
-| 90d | 2026-07-24 | 0 | 8 | 6 | 0 | 1 | 9 |
-| last180d | 2026-04-25 | 0 | 8 | 11 | 0 | 4 | 9 |
-| 360d | 2025-10-27 | 0 | 54 | 17 | 16 | 11 | 58 |
-| last720d | 2024-11-01 | 0 | 61 | 18 | 31 | 14 | 92 |
+| 30d | 2026-09-23 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 8 | 4 | 0 | 1 | 9 |
+| 90d | 2026-07-25 | 0 | 8 | 6 | 0 | 1 | 9 |
+| last180d | 2026-04-26 | 0 | 8 | 11 | 0 | 4 | 9 |
+| 360d | 2025-10-28 | 0 | 50 | 17 | 16 | 11 | 58 |
+| last720d | 2024-11-02 | 0 | 61 | 18 | 31 | 14 | 92 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [bloaty-1.1.tar.bz2](https://github.com/google/bloaty/releases/download/v1.1/bloaty-1.1.tar.bz2) | 5.1 MiB | `other` |
+
+## Distribution status
+
+Reported by **53** distros on [repology.org](https://repology.org/project/bloaty). **42** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `1.1` | ✅ latest |
+| Homebrew | `1.1` | ✅ latest |
+| Fedora rawhide | `1.1` | ✅ latest |
+| Nix unstable | `1.1-unstable-2026-05-31` | ignored |
+| Void | `1.1` | ✅ latest |
+| Alpine edge | `1.1` | ✅ latest |
 
 ## Improve this data
 
@@ -79,4 +92,4 @@ Install metadata for bloaty lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T06:07:30Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T06:09:49Z._
