@@ -1,50 +1,27 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: bloaty
-  binname: bloaty-dev
-  visiblename: bloaty-dev
+  binname: bloaty
+  visiblename: bloaty
   version: "1.1"
   origversion: 1.1-r10
   status: newest
-  summary: 'Bloaty McBloatface: a size profiler for binaries (development files)'
+  summary: 'Bloaty McBloatface: a size profiler for binaries'
   maintainers:
     - oss@cogitri.dev
   licenses:
     - Apache-2.0
-- repo: aur
-  srcname: bloaty-git
-  binname: bloaty-git
-  visiblename: bloaty-git
-  version: 1.1.r288.ge115514
-  origversion: 1.1.r288.ge115514-1
-  status: rolling
-  summary: A size profiler for binaries
-  maintainers:
-    - mark@aur
-  licenses:
-    - Apache
 - repo: alpine_3_17
   subrepo: community
   srcname: bloaty
-  binname: bloaty
-  visiblename: bloaty
+  binname: bloaty-dev
+  visiblename: bloaty-dev
   version: "1.1"
   origversion: 1.1-r10
   status: newest
-  summary: 'Bloaty McBloatface: a size profiler for binaries'
+  summary: 'Bloaty McBloatface: a size profiler for binaries (development files)'
   maintainers:
     - oss@cogitri.dev
-  licenses:
-    - Apache-2.0
-- repo: parabola
-  subrepo: extra
-  srcname: bloaty
-  binname: bloaty
-  visiblename: bloaty
-  version: "1.1"
-  origversion: 1.1-29
-  status: newest
-  summary: Size profiler for binaries
   licenses:
     - Apache-2.0
 - repo: alpine_3_18
@@ -73,6 +50,21 @@
     - oss@cogitri.dev
   licenses:
     - Apache-2.0
+- repo: epel_9
+  srcname: bloaty
+  binnames:
+    - bloaty
+    - bloaty-debuginfo
+    - bloaty-debugsource
+  visiblename: bloaty
+  version: "1.1"
+  origversion: 1.1-16.el9
+  status: newest
+  summary: A size profiler for binaries
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
 - repo: alpine_3_19
   subrepo: community
   srcname: bloaty
@@ -191,6 +183,18 @@
   summary: Size profiler for binaries
   licenses:
     - Apache-2.0
+- repo: aur
+  srcname: bloaty-git
+  binname: bloaty-git
+  visiblename: bloaty-git
+  version: 1.1.r288.ge115514
+  origversion: 1.1.r288.ge115514-1
+  status: rolling
+  summary: A size profiler for binaries
+  maintainers:
+    - mark@aur
+  licenses:
+    - Apache
 - repo: chimera
   subrepo: user
   srcname: bloaty
@@ -207,21 +211,6 @@
   visiblename: bloaty
   version: "1.1"
   origversion: 1.1-8.el8
-  status: newest
-  summary: A size profiler for binaries
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-- repo: epel_9
-  srcname: bloaty
-  binnames:
-    - bloaty
-    - bloaty-debuginfo
-    - bloaty-debugsource
-  visiblename: bloaty
-  version: "1.1"
-  origversion: 1.1-16.el9
   status: newest
   summary: A size profiler for binaries
   licenses:
@@ -629,6 +618,17 @@
     - Apache-2.0
   categories:
     - Development/Tools/Other
+- repo: parabola
+  subrepo: extra
+  srcname: bloaty
+  binname: bloaty
+  visiblename: bloaty
+  version: "1.1"
+  origversion: 1.1-29
+  status: newest
+  summary: Size profiler for binaries
+  licenses:
+    - Apache-2.0
 - repo: spack
   srcname: bloaty
   visiblename: bloaty
