@@ -1,70 +1,75 @@
-- repo: alpine_3_17
-  subrepo: community
+- repo: homebrew
   srcname: bloaty
-  binname: bloaty
   visiblename: bloaty
-  version: "1.1"
-  origversion: 1.1-r10
-  status: newest
-  summary: 'Bloaty McBloatface: a size profiler for binaries'
-  maintainers:
-    - oss@cogitri.dev
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_17
-  subrepo: community
-  srcname: bloaty
-  binname: bloaty-dev
-  visiblename: bloaty-dev
-  version: "1.1"
-  origversion: 1.1-r10
-  status: newest
-  summary: 'Bloaty McBloatface: a size profiler for binaries (development files)'
-  maintainers:
-    - oss@cogitri.dev
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bloaty
-  binname: bloaty
-  visiblename: bloaty
-  version: "1.1"
-  origversion: 1.1-r14
-  status: newest
-  summary: 'Bloaty McBloatface: a size profiler for binaries'
-  maintainers:
-    - oss@cogitri.dev
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bloaty
-  binname: bloaty-dev
-  visiblename: bloaty-dev
-  version: "1.1"
-  origversion: 1.1-r14
-  status: newest
-  summary: 'Bloaty McBloatface: a size profiler for binaries (development files)'
-  maintainers:
-    - oss@cogitri.dev
-  licenses:
-    - Apache-2.0
-- repo: epel_9
-  srcname: bloaty
-  binnames:
-    - bloaty
-    - bloaty-debuginfo
-    - bloaty-debugsource
-  visiblename: bloaty
-  version: "1.1"
-  origversion: 1.1-16.el9
-  status: newest
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Size profiler for binaries
+- repo: liguros_stable
+  srcname: dev-util/bloaty
+  visiblename: dev-util/bloaty
+  version: "9999"
+  origversion: null
+  status: rolling
   summary: A size profiler for binaries
+  maintainers:
+    - fallback-mnt-liguros@repology
   licenses:
-    - ASL 2.0
+    - Apache-2.0
   categories:
-    - Unspecified
+    - dev-util
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bloaty
+  binname: bloaty-dev
+  visiblename: bloaty-dev
+  version: "1.1"
+  origversion: 1.1-r10
+  status: newest
+  summary: 'Bloaty McBloatface: a size profiler for binaries (development files)'
+  maintainers:
+    - oss@cogitri.dev
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bloaty
+  binname: bloaty
+  visiblename: bloaty
+  version: "1.1"
+  origversion: 1.1-r10
+  status: newest
+  summary: 'Bloaty McBloatface: a size profiler for binaries'
+  maintainers:
+    - oss@cogitri.dev
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bloaty
+  binname: bloaty
+  visiblename: bloaty
+  version: "1.1"
+  origversion: 1.1-r14
+  status: newest
+  summary: 'Bloaty McBloatface: a size profiler for binaries'
+  maintainers:
+    - oss@cogitri.dev
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bloaty
+  binname: bloaty-dev
+  visiblename: bloaty-dev
+  version: "1.1"
+  origversion: 1.1-r14
+  status: newest
+  summary: 'Bloaty McBloatface: a size profiler for binaries (development files)'
+  maintainers:
+    - oss@cogitri.dev
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_19
   subrepo: community
   srcname: bloaty
@@ -211,6 +216,21 @@
   visiblename: bloaty
   version: "1.1"
   origversion: 1.1-8.el8
+  status: newest
+  summary: A size profiler for binaries
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+- repo: epel_9
+  srcname: bloaty
+  binnames:
+    - bloaty
+    - bloaty-debuginfo
+    - bloaty-debugsource
+  visiblename: bloaty
+  version: "1.1"
+  origversion: 1.1-16.el9
   status: newest
   summary: A size profiler for binaries
   licenses:
@@ -377,26 +397,6 @@
   origversion: null
   status: newest
   summary: Size profiler for binaries
-- repo: homebrew
-  srcname: bloaty
-  visiblename: bloaty
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Size profiler for binaries
-- repo: liguros_stable
-  srcname: dev-util/bloaty
-  visiblename: dev-util/bloaty
-  version: "9999"
-  origversion: null
-  status: rolling
-  summary: A size profiler for binaries
-  maintainers:
-    - fallback-mnt-liguros@repology
-  licenses:
-    - Apache-2.0
-  categories:
-    - dev-util
 - repo: liguros_stable
   srcname: dev-util/bloaty
   visiblename: dev-util/bloaty
@@ -507,28 +507,6 @@
     - ASL 2.0
   categories:
     - Development/Other
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: bloaty
-  binname: bloaty
-  visiblename: bloaty
-  version: "1.1"
-  origversion: 1.1-28
-  status: newest
-  summary: Size profiler for binaries
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: bloaty
-  binname: bloaty
-  visiblename: bloaty
-  version: "1.1"
-  origversion: 1.1-29
-  status: newest
-  summary: Size profiler for binaries
-  licenses:
-    - Apache-2.0
 - repo: manjaro_unstable
   subrepo: extra
   srcname: bloaty
