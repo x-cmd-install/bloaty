@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,569 · **Forks**: 381 · **Open issues**: 211 · **Contributors**: 63
+- **Stars**: 5,571 · **Forks**: 381 · **Open issues**: 211 · **Contributors**: 63
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 255 · **Open PRs**: 25 · **Closed issues**: 159 · **Open issues**: 52 · **Commits**: 805
+- **Releases**: 2 · **Merged PRs**: 255 · **Open PRs**: 26 · **Closed issues**: 159 · **Open issues**: 52 · **Commits**: 805
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 3 | 4 | 0 | 0 | 3 |
-| last60d | 2026-09-07 | 0 | 7 | 7 | 0 | 1 | 8 |
-| 90d | 2026-08-08 | 0 | 11 | 8 | 0 | 1 | 12 |
-| last180d | 2026-05-10 | 0 | 11 | 15 | 0 | 2 | 12 |
-| 360d | 2025-11-11 | 0 | 33 | 21 | 8 | 11 | 36 |
-| last720d | 2024-11-16 | 0 | 64 | 22 | 31 | 14 | 95 |
+| 30d | 2026-10-08 | 0 | 3 | 5 | 0 | 0 | 3 |
+| last60d | 2026-09-08 | 0 | 7 | 8 | 0 | 1 | 8 |
+| 90d | 2026-08-09 | 0 | 11 | 9 | 0 | 1 | 12 |
+| last180d | 2026-05-11 | 0 | 11 | 16 | 0 | 2 | 12 |
+| 360d | 2025-11-12 | 0 | 33 | 22 | 8 | 11 | 36 |
+| last720d | 2024-11-17 | 0 | 64 | 23 | 31 | 14 | 95 |
 
 ## Release assets
 
@@ -72,12 +72,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **51** distros on [repology.org](https://repology.org/project/bloaty). **40** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
+Reported by **53** distros on [repology.org](https://repology.org/project/bloaty). **42** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `1.1` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.1` | ✅ latest |
 | Fedora rawhide | `1.1` | ✅ latest |
 | Nix unstable | `1.1-unstable-2026-05-31` | ignored |
 | Void | `1.1` | ✅ latest |
@@ -92,4 +92,4 @@ Install metadata for bloaty lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T08:18:38Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:24:09Z._
