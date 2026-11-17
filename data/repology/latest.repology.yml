@@ -1,28 +1,3 @@
-- repo: homebrew
-  srcname: bloaty
-  visiblename: bloaty
-  version: "1.1"
-  origversion: null
-  status: newest
-  summary: Size profiler for binaries
-- repo: homebrew
-  srcname: bloaty
-  visiblename: bloaty
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Size profiler for binaries
-- repo: nix_stable_25_11
-  srcname: bloaty
-  visiblename: bloaty
-  version: 1.1-unstable-2024-09-23
-  origversion: null
-  status: ignored
-  summary: Size profiler for binaries
-  maintainers:
-    - me@momee.mt
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_17
   subrepo: community
   srcname: bloaty
@@ -114,6 +89,20 @@
     - cielesti@protonmail.com
   licenses:
     - Apache-2.0
+- repo: fedora_41
+  subrepo: release
+  srcname: bloaty
+  binnames:
+    - bloaty
+  visiblename: bloaty
+  version: "1.1"
+  origversion: 1.1-38.fc41
+  status: newest
+  summary: A size profiler for binaries
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-4-Clause-UC AND BSD-3-Clause
+  categories:
+    - Unspecified
 - repo: alpine_3_22
   subrepo: community
   srcname: bloaty
@@ -274,20 +263,6 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-4-Clause-UC AND BSD-3-Clause
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: release
-  srcname: bloaty
-  binnames:
-    - bloaty
-  visiblename: bloaty
-  version: "1.1"
-  origversion: 1.1-38.fc41
-  status: newest
-  summary: A size profiler for binaries
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-4-Clause-UC AND BSD-3-Clause
-  categories:
-    - Unspecified
 - repo: fedora_42
   subrepo: release
   srcname: bloaty
@@ -324,6 +299,20 @@
   visiblename: bloaty
   version: "1.1"
   origversion: 1.1-50.fc44
+  status: newest
+  summary: A size profiler for binaries
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-4-Clause-UC AND BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: bloaty
+  binnames:
+    - bloaty
+  visiblename: bloaty
+  version: "1.1"
+  origversion: 1.1-53.fc45
   status: newest
   summary: A size profiler for binaries
   licenses:
@@ -395,6 +384,20 @@
     - Apache-2.0
   categories:
     - dev-util
+- repo: homebrew
+  srcname: bloaty
+  visiblename: bloaty
+  version: "1.1"
+  origversion: null
+  status: newest
+  summary: Size profiler for binaries
+- repo: homebrew
+  srcname: bloaty
+  visiblename: bloaty
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Size profiler for binaries
 - repo: liguros_stable
   srcname: dev-util/bloaty
   visiblename: dev-util/bloaty
@@ -574,6 +577,17 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_05
+  srcname: bloaty
+  visiblename: bloaty
+  version: 1.1-unstable-2024-09-23
+  origversion: null
+  status: ignored
+  summary: Size profiler for binaries
+  maintainers:
+    - me@momee.mt
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
   srcname: bloaty
   visiblename: bloaty
   version: 1.1-unstable-2024-09-23
