@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,575 · **Forks**: 382 · **Open issues**: 211 · **Contributors**: 63
+- **Stars**: 5,576 · **Forks**: 382 · **Open issues**: 211 · **Contributors**: 63
 
 ## Totals (cumulative)
 
@@ -57,18 +57,31 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 3 | 5 | 0 | 0 | 3 |
-| last60d | 2026-09-28 | 0 | 3 | 7 | 0 | 0 | 3 |
-| 90d | 2026-08-29 | 0 | 9 | 9 | 0 | 1 | 10 |
-| last180d | 2026-05-31 | 0 | 11 | 16 | 1 | 1 | 12 |
-| 360d | 2025-12-02 | 0 | 22 | 22 | 3 | 9 | 25 |
-| last720d | 2024-12-07 | 0 | 64 | 22 | 32 | 13 | 95 |
+| 30d | 2026-10-29 | 0 | 3 | 5 | 0 | 0 | 3 |
+| last60d | 2026-09-29 | 0 | 3 | 7 | 0 | 0 | 3 |
+| 90d | 2026-08-30 | 0 | 9 | 9 | 0 | 1 | 10 |
+| last180d | 2026-06-01 | 0 | 11 | 15 | 1 | 1 | 12 |
+| 360d | 2025-12-03 | 0 | 22 | 22 | 3 | 9 | 25 |
+| last720d | 2024-12-08 | 0 | 64 | 22 | 32 | 13 | 95 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [bloaty-1.1.tar.bz2](https://github.com/google/bloaty/releases/download/v1.1/bloaty-1.1.tar.bz2) | 5.1 MiB | `other` |
+
+## Distribution status
+
+Reported by **53** distros on [repology.org](https://repology.org/project/bloaty). **42** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `1.1` | ✅ latest |
+| Homebrew | `1.1` | ✅ latest |
+| Fedora rawhide | `1.1` | ✅ latest |
+| Nix unstable | `1.1-unstable-2026-05-31` | ignored |
+| Void | `1.1` | ✅ latest |
+| Alpine edge | `1.1` | ✅ latest |
 
 ## Improve this data
 
@@ -79,4 +92,4 @@ Install metadata for bloaty lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:55:15Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:48:55Z._
